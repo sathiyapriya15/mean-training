@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>EB bill</h1>
+<script type="text/javascript">
+	function eb(units){
+var val;
+
+	if (units<=100) {
+		val=units*2;
+		console.log("eb amount:",val);
+	}
+
+ else if(units>100&&units<=200)
+ {
+	val=(200+((units-100)*3));
+ 	console.log("eb amount:",val);
+ }
+else if(units>200)
+{
+	val=500+(units-200)*4;
+	console.log("eb amount:",val);
+}
+ 
+ }val=eb(150);
+
+
+</script>
+</body>
+</html>
